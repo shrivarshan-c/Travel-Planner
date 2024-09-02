@@ -1,0 +1,207 @@
+.total-plan{
+    display: flex;
+}
+.half-plan{
+    width: 50%;
+    height: 2500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    overflow-y: scroll;
+}
+.half2-plan{
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.photo-plan{
+    height: 330px;
+    width: 100%;
+    background: url('./27344537905_509366982c_o.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.icons-plan{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 200px;
+}
+.icons-plan img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.icons-plan h3{
+    color: white;
+    letter-spacing: 1px;
+}
+.loc-plan{
+    height: 100px;
+    width: 40%; 
+    transform: translateY(150px);
+    margin-left: 40px;
+}
+.loc-plan p{
+    font-size: 40px;
+    margin-bottom: -7px;
+}
+.loc-plan .days-plan{
+    font-size: 14px;
+    font-weight: lighter;
+    border: 2px solid white;
+    width: 60px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+.alldays-plan{
+    width: 90%; 
+    height: 70px;
+    display: flex;
+    gap:450px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+
+}
+.alldays-plan p{
+    font-size: 25px;
+    color: black;
+}
+.alldays-plan span{
+    font-size: 12px;
+    font-weight: lighter;
+    border: 2px solid black;
+    width: 80px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(12, 12, 12);
+}
+.hotel-plan{
+    margin-top: 10px;
+    width: 90%;
+    height: 350px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.hotel-plan .card1-plan{
+    margin-top: 15px;
+    height: 320px;
+    width: 32.5%;
+    border: 1px solid rgba(0, 0, 0, 0.153);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 5px grey;
+}
+.hotel-plan .card1-imgplan{
+    height: 160px;
+    width: 100%;
+    background: url('./hotel2.webp');
+    background-size: cover;
+}
+.hotel-plan .card1-desplan{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.card1-desplan .card1-amntplan{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-top: 1px solid black;
+    display: flex;
+    gap:40px;
+}
+.card1-desplan .card1-amntplan p{
+    color: rgba(0, 0, 0, 0.708);
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.card1-desplan .card1-amntplan button{
+    font-size: 12px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(212, 255, 148);
+    margin-top: 4px;
+}
+.card1-desplan .card1-rating{
+    height: 40px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    transform: translateY(-130px);
+    margin-left: 20px;
+}
+.loc1-plan{
+    width: 90%;
+    height: 140px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+    display: flex;
+}
+.loc1-plan .loc1desc-plan{
+    width: 70%;
+    height: 140px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.loc1-plan .loc1time-plan{
+    width: 40%;
+    height: 40px;
+    background-color: black;
+    border-radius: 30px;
+    margin-bottom: 8px;
+}
+.dire-plan{
+    width: 90%;
+    height: 50px;
+    background-color: bisque;
+    border-radius: 10px;
+    display: flex;
+    gap:10%;
+    margin: 20px;
+}
+.dire-plan p{color: black;}
+.vertical-plan{width: 2px; height: 30px; background-color: black; margin-left: -630px; margin-top: 13px;}
+.card1-desplan p{
+    color: black;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.card1-rating p{
+    color: black;
+    margin-top: 10px;
+}
+.loc1desc-plan ,.loc1time-plan p{
+    color: rgb(255, 255, 255);
+}
+.loc1desc-plan p{
+    color: black;
+}
+.loc1img-plan{
+    background: url('./27344537905_509366982c_o.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 140px;
+    width: 30%;
+}

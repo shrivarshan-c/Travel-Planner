@@ -1,0 +1,181 @@
+/* Cards container */
+.cards {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Individual card */
+.card {
+    width: 100%;
+    height: 740px;
+    color: black;
+    background-image: url('./Cardbg.jpg');
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.card .desc2 .sub {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.card .desc2 .main1 {
+    font-size: 38px;
+}
+
+/* Container for all cards */
+.card .allcards {
+    width: 90%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.703);
+    display: flex;
+    gap: 10px;
+    scroll-behavior: smooth;
+    overflow-x: hidden; /* Add scrollbar if necessary */
+    padding-bottom: 20px; /* Add space for scrollbar */
+    
+}
+
+/* Individual card layout */
+.card .allcards .card1,
+.card .allcards .card2,
+.card .allcards .card3,
+.card .allcards .card4,
+.card .allcards .card5 {
+    margin-top: 70px;
+    width: 300px;
+    height: 405px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 100px;
+}
+
+/* Button style */
+.card .allcards button {
+    border: 2px solid white;
+    background: none;
+    color: white;
+    height: 38px;
+    width: 130px;
+}
+
+.card .allcards button:hover {
+    background: black;
+    border: none;
+    cursor: pointer;
+}
+
+/* Vector icons */
+.card .allcards .vectors {
+    display: flex;
+    gap: 200px;
+    transform: translateY(-280px);
+}
+
+
+/* View More button */
+.card .allcards .viewmore {
+    width: 149px;
+    height: 50px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 10px;
+    transform: translateX(1200px);
+}
+
+.card .allcards .viewmore img{
+    margin-bottom: 8px;
+}
+.card .allcards .card1
+{
+    background: url('./coorg.jpg');
+}
+.card .allcards .card2
+{
+    
+    background: url('./tuxpi.com.png');
+    
+}
+.card .allcards .card3
+{
+    background: url('./cochinimg.png');
+}
+.card .allcards .card4
+{
+    background: url('./imageee.png');
+}
+.card .allcards .card5
+{
+    background: url('./megam.jpg');
+}
+
+
+.searchbar
+{
+    height: 40px;
+    width: 180px;
+    
+}
+.searchbar input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.searchbar input:focus {
+    outline: none; 
+}
+/* .searchbar .search{
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    margin-left: 30px;
+} */
+::-webkit-input-placeholder{
+    color: white;
+    font-weight: lighter;
+    font-size: smaller;
+}
+.card .desc1
+{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    gap: 570px;
+    align-items: center;
+}
+.card .desc1 .desc2
+{
+    width: 500px;
+    height: 200px;
+    margin-top: 60px;
+}
+.card .searchbar button{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(71, 227, 255);
+    border-radius: 30px;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.card .searchbar{
+    display: flex;
+}
