@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Map, { NavigationControl, Marker, Popup } from "react-map-gl";
 // import Navbar from "./navbar/navbar.js";
 import maplibregl from "maplibre-gl";
-import "maplibre-gl/dist/maplibre-gl.css";
+import 'maplibre-gl/dist/maplibre-gl.css';
+
 import "./Interactivemap.css";
 import defaultImage1 from "./WhatsApp Image 2024-03-13 at 20.55.23.jpeg";
 import defaultImage2 from "./WhatsApp Image 2024-03-13 at 20.55.24.jpeg";
